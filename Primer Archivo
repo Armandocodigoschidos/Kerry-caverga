@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">MiPortafolio</h2>
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="inicio">
+            <div>
+                <p class="saludo">Hola, soy</p>
+                <h1>Diego Armando</h1>
+                <h2>Estudiante de Programación</h2>
+
+                <p>
+                    Bienvenido a mi portafolio. Aquí puedes conocer
+                    mis proyectos, habilidades y trabajos realizados.
+                </p>
+
+                <a href="#proyectos" class="boton">Ver proyectos</a>
+            </div>
+
+            <div class="foto">
+                <div class="circulo">DA</div>
+            </div>
+        </section>
+
+
+        <!-- SOBRE MI -->
+        <section id="sobre-mi">
+            <h2 class="titulo">Sobre mí</h2>
+
+            <div class="tarjeta">
+                <p>
+                    Soy estudiante interesado en la programación,
+                    el desarrollo de aplicaciones y la tecnología.
+                    Me gusta aprender nuevos lenguajes y crear
+                    proyectos que me permitan mejorar mis habilidades.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section id="habilidades">
+            <h2 class="titulo">Mis habilidades</h2>
+
+            <div class="habilidades">
+
+                <div class="habilidad">
+                    <h3>HTML</h3>
+                    <p>Creación de páginas web.</p>
+                </div>
+
+                <div class="habilidad">
+                    <h3>CSS</h3>
+                    <p>Diseño y estilos para páginas web.</p>
+                </div>
+
+                <div class="habilidad">
+                    <h3>JavaScript</h3>
+                    <p>Programación e interacción con páginas.</p>
+                </div>
+
+                <div class="habilidad">
+                    <h3>C++</h3>
+                    <p>Programación y resolución de problemas.</p>
+                </div>
+
+                <div class="habilidad">
+                    <h3>Python</h3>
+                    <p>Programación y desarrollo de aplicaciones.</p>
+                </div>
+
+                <div class="habilidad">
+                    <h3>Bases de datos</h3>
+                    <p>Diseño y organización de información.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section id="proyectos">
+            <h2 class="titulo">Mis proyectos</h2>
+
+            <div class="proyectos">
+
+                <div class="proyecto">
+                    <h3>Tienda de instrumentos</h3>
+                    <p>
+                        Diseño de una base de datos y aplicación
+                        para administrar una tienda de instrumentos.
+                    </p>
+
+                    <button onclick="mostrarMensaje('Tienda de instrumentos')">
+                        Ver proyecto
+                    </button>
+                </div>
+
+                <div class="proyecto">
+                    <h3>Videojuego Pong</h3>
+                    <p>
+                        Proyecto de videojuego basado en el clásico
+                        juego de ping pong.
+                    </p>
+
+                    <button onclick="mostrarMensaje('Videojuego Pong')">
+                        Ver proyecto
+                    </button>
+                </div>
+
+                <div class="proyecto">
+                    <h3>Punto de venta</h3>
+                    <p>
+                        Proyecto para administrar productos,
+                        clientes y ventas.
+                    </p>
+
+                    <button onclick="mostrarMensaje('Punto de venta')">
+                        Ver proyecto
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2 class="titulo">Contacto</h2>
+
+            <div class="contacto">
+                <p>¿Quieres conocer más sobre mis proyectos?</p>
+
+                <a href="https://github.com/" target="_blank" class="boton">
+                    Mi GitHub
+                </a>
+
+                <a href="mailto:tu-correo@gmail.com" class="boton">
+                    Enviar correo
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Diego Armando | Mi Portafolio</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
